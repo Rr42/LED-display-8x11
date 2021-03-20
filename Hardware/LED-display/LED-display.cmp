@@ -1,0 +1,939 @@
+Cmp-Mod V01 Created by PcbNew   date = 2021-03-20 11:51:44 PM
+
+BeginCmp
+TimeStamp = 605971E5
+Path = 
+Reference = G***;
+ValeurCmp = LOGO;
+IdModule  = LED-display:oshw-spfb;
+EndCmp
+
+BeginCmp
+TimeStamp = 605610EB
+Path = /618BE9EF
+Reference = U2;
+ValeurCmp = 74HC595;
+IdModule  = Package_DIP:DIP-16_W10.16mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 605610C7
+Path = /61515ECC
+Reference = U1;
+ValeurCmp = 74HC595;
+IdModule  = Package_DIP:DIP-16_W10.16mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 6056C4FA
+Path = /61E9E06E
+Reference = C2;
+ValeurCmp = 0.1u;
+IdModule  = Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60578C82
+Path = /60529DCD
+Reference = D32;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 6056110F
+Path = /60469B70
+Reference = U3;
+ValeurCmp = 74HC595;
+IdModule  = Package_DIP:DIP-16_W10.16mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 6058E308
+Path = /61B04A77
+Reference = R18;
+ValeurCmp = 1MEG;
+IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 6056108C
+Path = /61A8B54A
+Reference = R17;
+ValeurCmp = 1MEG;
+IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 60561075
+Path = /61A8B544
+Reference = R16;
+ValeurCmp = 1MEG;
+IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 605888FB
+Path = /619D42F0
+Reference = R15;
+ValeurCmp = 1MEG;
+IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 60561047
+Path = /61996E87
+Reference = R14;
+ValeurCmp = 1MEG;
+IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 60561030
+Path = /617AB0EA
+Reference = R13;
+ValeurCmp = 1MEG;
+IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 60561019
+Path = /60D65C92
+Reference = R12;
+ValeurCmp = 2.2K;
+IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 60561002
+Path = /60C737DB
+Reference = R11;
+ValeurCmp = 2.2K;
+IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560FEB
+Path = /60D4072C
+Reference = R10;
+ValeurCmp = 1K;
+IdModule  = Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 6058A60A
+Path = /60D40726
+Reference = R9;
+ValeurCmp = 1K;
+IdModule  = Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 6058A5C8
+Path = /60D1AFCD
+Reference = R8;
+ValeurCmp = 1K;
+IdModule  = Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 6058A586
+Path = /60D1AFC7
+Reference = R7;
+ValeurCmp = 1K;
+IdModule  = Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560F8F
+Path = /60D1AFC1
+Reference = R6;
+ValeurCmp = 1K;
+IdModule  = Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560F78
+Path = /60D1AFBB
+Reference = R5;
+ValeurCmp = 1K;
+IdModule  = Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560F61
+Path = /60CF4D32
+Reference = R4;
+ValeurCmp = 1K;
+IdModule  = Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560F4A
+Path = /60CF4D2C
+Reference = R3;
+ValeurCmp = 1K;
+IdModule  = Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560F33
+Path = /60CF3588
+Reference = R2;
+ValeurCmp = 1K;
+IdModule  = Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560F1C
+Path = /60B8E863
+Reference = R1;
+ValeurCmp = 1K;
+IdModule  = Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560F05
+Path = /60FD9F4A
+Reference = J1;
+ValeurCmp = Conn_01x08;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560EE9
+Path = /60532336
+Reference = D88;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560ED7
+Path = /60529DFA
+Reference = D87;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560EC5
+Path = /6050E880
+Reference = D86;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560EB3
+Path = /604FFA2C
+Reference = D85;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560EA1
+Path = /604F9C05
+Reference = D84;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560E8F
+Path = /604F418F
+Reference = D83;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560E7D
+Path = /604ED319
+Reference = D82;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560E6B
+Path = /604E7334
+Reference = D81;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560E59
+Path = /604E34BC
+Reference = D80;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560E47
+Path = /604D6DF0
+Reference = D79;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560E35
+Path = /6048E793
+Reference = D78;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560E23
+Path = /6053232D
+Reference = D77;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560E11
+Path = /60529DF1
+Reference = D76;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560DFF
+Path = /6050E877
+Reference = D75;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560DED
+Path = /604FFA23
+Reference = D74;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560DDB
+Path = /604F9BFC
+Reference = D73;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560DC9
+Path = /604F4186
+Reference = D72;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560DB7
+Path = /604ED310
+Reference = D71;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560DA5
+Path = /604E732B
+Reference = D70;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560D93
+Path = /604E34B3
+Reference = D69;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560D81
+Path = /604D6DE7
+Reference = D68;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560D6F
+Path = /6048D9D1
+Reference = D67;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560D5D
+Path = /60532324
+Reference = D66;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560D4B
+Path = /60529DE8
+Reference = D65;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560D39
+Path = /6050E86E
+Reference = D64;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560D27
+Path = /604FFA1A
+Reference = D63;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560D15
+Path = /604F9BF3
+Reference = D62;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560D03
+Path = /604F417D
+Reference = D61;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560CF1
+Path = /604ED307
+Reference = D60;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560CDF
+Path = /604E7322
+Reference = D59;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560CCD
+Path = /604E34AA
+Reference = D58;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560CBB
+Path = /604D6DDE
+Reference = D57;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560CA9
+Path = /6048C944
+Reference = D56;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560C97
+Path = /6053231B
+Reference = D55;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560C85
+Path = /60529DDF
+Reference = D54;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560C73
+Path = /6050E865
+Reference = D53;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560C61
+Path = /604FFA11
+Reference = D52;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560C4F
+Path = /604F9BEA
+Reference = D51;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560C3D
+Path = /604F4174
+Reference = D50;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560C2B
+Path = /604ED2FE
+Reference = D49;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60584E76
+Path = /604E7319
+Reference = D48;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560C07
+Path = /604E34A1
+Reference = D47;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 605810AC
+Path = /604D6DD5
+Reference = D46;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560BE3
+Path = /6048BE42
+Reference = D45;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560BD1
+Path = /60532312
+Reference = D44;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560BBF
+Path = /60529DD6
+Reference = D43;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560BAD
+Path = /6050E85C
+Reference = D42;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560B9B
+Path = /604FFA08
+Reference = D41;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560B89
+Path = /604F9BE1
+Reference = D40;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560B77
+Path = /604F416B
+Reference = D39;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560B65
+Path = /604ED2F5
+Reference = D38;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560B53
+Path = /604E7310
+Reference = D37;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560B41
+Path = /604E3498
+Reference = D36;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560B2F
+Path = /604D6DCC
+Reference = D35;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560B1D
+Path = /6048B094
+Reference = D34;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60578D81
+Path = /60532309
+Reference = D33;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60578D4E
+Path = /6050E853
+Reference = D31;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60578CB5
+Path = /604FF9FF
+Reference = D30;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60578D1B
+Path = /604F9BD8
+Reference = D29;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60578C4F
+Path = /604F4162
+Reference = D28;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60578CE8
+Path = /604ED2EC
+Reference = D27;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560A8D
+Path = /604E7307
+Reference = D26;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560A7B
+Path = /604E348F
+Reference = D25;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560A69
+Path = /604D6DC3
+Reference = D24;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560A57
+Path = /6048A3FB
+Reference = D23;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560A45
+Path = /60532300
+Reference = D22;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60577730
+Path = /60529DC4
+Reference = D21;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560A21
+Path = /6050E84A
+Reference = D20;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560A0F
+Path = /604FF9F6
+Reference = D19;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 605609FD
+Path = /604F9BCF
+Reference = D18;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 605609EB
+Path = /604F4159
+Reference = D17;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 605609D9
+Path = /604ED2E3
+Reference = D16;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 605609C7
+Path = /604E72FE
+Reference = D15;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 605609B5
+Path = /604E3486
+Reference = D14;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 605609A3
+Path = /604D6DBA
+Reference = D13;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 605778D2
+Path = /604892D0
+Reference = D12;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 6056097F
+Path = /605322F7
+Reference = D11;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 6056096D
+Path = /60529DBB
+Reference = D10;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 6056095B
+Path = /6050E841
+Reference = D9;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560949
+Path = /604FF9ED
+Reference = D8;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60574B15
+Path = /604F9BC6
+Reference = D7;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560925
+Path = /604F4150
+Reference = D6;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560913
+Path = /604ED2DA
+Reference = D5;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 60560901
+Path = /604E72F5
+Reference = D4;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 605608EF
+Path = /604E347D
+Reference = D3;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 605608DD
+Path = /604D6DB1
+Reference = D2;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 605608CB
+Path = /60487899
+Reference = D1;
+ValeurCmp = LED_White;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 605608B9
+Path = /61D32613
+Reference = C6;
+ValeurCmp = 0.1u;
+IdModule  = Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 605608A4
+Path = /61E2E97B
+Reference = C5;
+ValeurCmp = 1u;
+IdModule  = Capacitor_THT:CP_Radial_D4.0mm_P2.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 6056C677
+Path = /61ED1E92
+Reference = C4;
+ValeurCmp = 0.1u;
+IdModule  = Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 6056C58D
+Path = /61ED1EA4
+Reference = C3;
+ValeurCmp = 1u;
+IdModule  = Capacitor_THT:CP_Radial_D4.0mm_P2.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 6056C410
+Path = /61E9E080
+Reference = C1;
+ValeurCmp = 1u;
+IdModule  = Capacitor_THT:CP_Radial_D4.0mm_P2.00mm;
+EndCmp
+
+EndListe

@@ -1,0 +1,515 @@
+( { EESchema Netlist Version 1.1 created  2021-03-20 3:26:33 PM }
+ ( /61515ECC DIP16  U1 74HC595
+  (    1 Net-(R2-Pad1) )
+  (    2 Net-(R3-Pad1) )
+  (    3 Net-(R4-Pad1) )
+  (    4 Net-(R5-Pad1) )
+  (    5 Net-(R6-Pad1) )
+  (    6 Net-(R7-Pad1) )
+  (    7 Net-(R8-Pad1) )
+  (    8 GND )
+  (    9 Net-(U1-Pad9) )
+  (   10 /RESET )
+  (   11 /DCLK )
+  (   12 /VSYNC )
+  (   13 /EOUT )
+  (   14 /DATA )
+  (   15 Net-(R1-Pad1) )
+  (   16 +5V )
+ )
+ ( /61ED1EA4 CAP_ELECTRO_200  C3 1u
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /61ED1E92 CAP_CERAMIC1  C4 0.1u
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /61E9E080 CAP_ELECTRO_200  C1 1u
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /61E9E06E CAP_CERAMIC1  C2 0.1u
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /61E2E97B CAP_ELECTRO_200  C5 1u
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /61D32613 CAP_CERAMIC1  C6 0.1u
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /618BE9EF DIP16  U2 74HC595
+  (    1 Net-(R10-Pad1) )
+  (    2 Net-(R11-Pad1) )
+  (    3 U2NC3 )
+  (    4 U2NC4 )
+  (    5 U2NC5 )
+  (    6 U2NC6 )
+  (    7 U2NC7 )
+  (    8 GND )
+  (    9 U2NC9 )
+  (   10 /RESET )
+  (   11 /DCLK )
+  (   12 /VSYNC )
+  (   13 /EOUT )
+  (   14 Net-(U1-Pad9) )
+  (   15 Net-(R9-Pad1) )
+  (   16 +5V )
+ )
+ ( /60D65C92 RESISTOR4  R12 2.2K
+  (    1 Net-(R11-Pad1) )
+  (    2 Net-(D11-Pad1) )
+ )
+ ( /60D4072C RESISTOR5  R10 1K
+  (    1 Net-(R10-Pad1) )
+  (    2 Net-(D10-Pad1) )
+ )
+ ( /60D40726 RESISTOR5  R9 1K
+  (    1 Net-(R9-Pad1) )
+  (    2 Net-(D20-Pad1) )
+ )
+ ( /60D1AFCD RESISTOR5  R8 1K
+  (    1 Net-(R8-Pad1) )
+  (    2 Net-(D19-Pad1) )
+ )
+ ( /60D1AFC7 RESISTOR5  R7 1K
+  (    1 Net-(R7-Pad1) )
+  (    2 Net-(D18-Pad1) )
+ )
+ ( /60D1AFC1 RESISTOR5  R6 1K
+  (    1 Net-(R6-Pad1) )
+  (    2 Net-(D17-Pad1) )
+ )
+ ( /60D1AFBB RESISTOR5  R5 1K
+  (    1 Net-(R5-Pad1) )
+  (    2 Net-(D16-Pad1) )
+ )
+ ( /60CF4D32 RESISTOR5  R4 1K
+  (    1 Net-(R4-Pad1) )
+  (    2 Net-(D15-Pad1) )
+ )
+ ( /60CF4D2C RESISTOR5  R3 1K
+  (    1 Net-(R3-Pad1) )
+  (    2 Net-(D14-Pad1) )
+ )
+ ( /60CF3588 RESISTOR5  R2 1K
+  (    1 Net-(R2-Pad1) )
+  (    2 Net-(D13-Pad1) )
+ )
+ ( /60C737DB RESISTOR4  R11 2.2K
+  (    1 Net-(R11-Pad1) )
+  (    2 Net-(D11-Pad1) )
+ )
+ ( /60B8E863 RESISTOR5  R1 1K
+  (    1 Net-(R1-Pad1) )
+  (    2 Net-(D1-Pad1) )
+ )
+ ( /6053232D LED  D77 LED_White
+  (    1 Net-(D11-Pad1) )
+  (    2 Net-(D67-Pad2) )
+ )
+ ( /60532336 LED  D88 LED_White
+  (    1 Net-(D11-Pad1) )
+  (    2 Net-(D78-Pad2) )
+ )
+ ( /60532324 LED  D66 LED_White
+  (    1 Net-(D11-Pad1) )
+  (    2 Net-(D56-Pad2) )
+ )
+ ( /6053231B LED  D55 LED_White
+  (    1 Net-(D11-Pad1) )
+  (    2 Net-(D45-Pad2) )
+ )
+ ( /60532312 LED  D44 LED_White
+  (    1 Net-(D11-Pad1) )
+  (    2 Net-(D34-Pad2) )
+ )
+ ( /60532309 LED  D33 LED_White
+  (    1 Net-(D11-Pad1) )
+  (    2 Net-(D23-Pad2) )
+ )
+ ( /60532300 LED  D22 LED_White
+  (    1 Net-(D11-Pad1) )
+  (    2 Net-(D12-Pad2) )
+ )
+ ( /60529DFA LED  D87 LED_White
+  (    1 Net-(D10-Pad1) )
+  (    2 Net-(D78-Pad2) )
+ )
+ ( /60529DF1 LED  D76 LED_White
+  (    1 Net-(D10-Pad1) )
+  (    2 Net-(D67-Pad2) )
+ )
+ ( /60529DE8 LED  D65 LED_White
+  (    1 Net-(D10-Pad1) )
+  (    2 Net-(D56-Pad2) )
+ )
+ ( /60529DDF LED  D54 LED_White
+  (    1 Net-(D10-Pad1) )
+  (    2 Net-(D45-Pad2) )
+ )
+ ( /60529DD6 LED  D43 LED_White
+  (    1 Net-(D10-Pad1) )
+  (    2 Net-(D34-Pad2) )
+ )
+ ( /60529DCD LED  D32 LED_White
+  (    1 Net-(D10-Pad1) )
+  (    2 Net-(D23-Pad2) )
+ )
+ ( /60529DC4 LED  D21 LED_White
+  (    1 Net-(D10-Pad1) )
+  (    2 Net-(D12-Pad2) )
+ )
+ ( /6050E880 LED  D86 LED_White
+  (    1 Net-(D20-Pad1) )
+  (    2 Net-(D78-Pad2) )
+ )
+ ( /6050E877 LED  D75 LED_White
+  (    1 Net-(D20-Pad1) )
+  (    2 Net-(D67-Pad2) )
+ )
+ ( /6050E86E LED  D64 LED_White
+  (    1 Net-(D20-Pad1) )
+  (    2 Net-(D56-Pad2) )
+ )
+ ( /6050E865 LED  D53 LED_White
+  (    1 Net-(D20-Pad1) )
+  (    2 Net-(D45-Pad2) )
+ )
+ ( /6050E85C LED  D42 LED_White
+  (    1 Net-(D20-Pad1) )
+  (    2 Net-(D34-Pad2) )
+ )
+ ( /6050E853 LED  D31 LED_White
+  (    1 Net-(D20-Pad1) )
+  (    2 Net-(D23-Pad2) )
+ )
+ ( /6050E84A LED  D20 LED_White
+  (    1 Net-(D20-Pad1) )
+  (    2 Net-(D12-Pad2) )
+ )
+ ( /604FFA2C LED  D85 LED_White
+  (    1 Net-(D19-Pad1) )
+  (    2 Net-(D78-Pad2) )
+ )
+ ( /604FFA23 LED  D74 LED_White
+  (    1 Net-(D19-Pad1) )
+  (    2 Net-(D67-Pad2) )
+ )
+ ( /604FFA1A LED  D63 LED_White
+  (    1 Net-(D19-Pad1) )
+  (    2 Net-(D56-Pad2) )
+ )
+ ( /604FFA11 LED  D52 LED_White
+  (    1 Net-(D19-Pad1) )
+  (    2 Net-(D45-Pad2) )
+ )
+ ( /604FFA08 LED  D41 LED_White
+  (    1 Net-(D19-Pad1) )
+  (    2 Net-(D34-Pad2) )
+ )
+ ( /604FF9FF LED  D30 LED_White
+  (    1 Net-(D19-Pad1) )
+  (    2 Net-(D23-Pad2) )
+ )
+ ( /604FF9F6 LED  D19 LED_White
+  (    1 Net-(D19-Pad1) )
+  (    2 Net-(D12-Pad2) )
+ )
+ ( /604F9C05 LED  D84 LED_White
+  (    1 Net-(D18-Pad1) )
+  (    2 Net-(D78-Pad2) )
+ )
+ ( /604F9BFC LED  D73 LED_White
+  (    1 Net-(D18-Pad1) )
+  (    2 Net-(D67-Pad2) )
+ )
+ ( /604F9BF3 LED  D62 LED_White
+  (    1 Net-(D18-Pad1) )
+  (    2 Net-(D56-Pad2) )
+ )
+ ( /604F9BEA LED  D51 LED_White
+  (    1 Net-(D18-Pad1) )
+  (    2 Net-(D45-Pad2) )
+ )
+ ( /604F9BE1 LED  D40 LED_White
+  (    1 Net-(D18-Pad1) )
+  (    2 Net-(D34-Pad2) )
+ )
+ ( /604F9BD8 LED  D29 LED_White
+  (    1 Net-(D18-Pad1) )
+  (    2 Net-(D23-Pad2) )
+ )
+ ( /604F9BCF LED  D18 LED_White
+  (    1 Net-(D18-Pad1) )
+  (    2 Net-(D12-Pad2) )
+ )
+ ( /604F418F LED  D83 LED_White
+  (    1 Net-(D17-Pad1) )
+  (    2 Net-(D78-Pad2) )
+ )
+ ( /604F4186 LED  D72 LED_White
+  (    1 Net-(D17-Pad1) )
+  (    2 Net-(D67-Pad2) )
+ )
+ ( /604F417D LED  D61 LED_White
+  (    1 Net-(D17-Pad1) )
+  (    2 Net-(D56-Pad2) )
+ )
+ ( /604F4174 LED  D50 LED_White
+  (    1 Net-(D17-Pad1) )
+  (    2 Net-(D45-Pad2) )
+ )
+ ( /604F416B LED  D39 LED_White
+  (    1 Net-(D17-Pad1) )
+  (    2 Net-(D34-Pad2) )
+ )
+ ( /604F4162 LED  D28 LED_White
+  (    1 Net-(D17-Pad1) )
+  (    2 Net-(D23-Pad2) )
+ )
+ ( /604F4159 LED  D17 LED_White
+  (    1 Net-(D17-Pad1) )
+  (    2 Net-(D12-Pad2) )
+ )
+ ( /604ED319 LED  D82 LED_White
+  (    1 Net-(D16-Pad1) )
+  (    2 Net-(D78-Pad2) )
+ )
+ ( /604ED310 LED  D71 LED_White
+  (    1 Net-(D16-Pad1) )
+  (    2 Net-(D67-Pad2) )
+ )
+ ( /604ED307 LED  D60 LED_White
+  (    1 Net-(D16-Pad1) )
+  (    2 Net-(D56-Pad2) )
+ )
+ ( /604ED2FE LED  D49 LED_White
+  (    1 Net-(D16-Pad1) )
+  (    2 Net-(D45-Pad2) )
+ )
+ ( /604ED2F5 LED  D38 LED_White
+  (    1 Net-(D16-Pad1) )
+  (    2 Net-(D34-Pad2) )
+ )
+ ( /604ED2EC LED  D27 LED_White
+  (    1 Net-(D16-Pad1) )
+  (    2 Net-(D23-Pad2) )
+ )
+ ( /604ED2E3 LED  D16 LED_White
+  (    1 Net-(D16-Pad1) )
+  (    2 Net-(D12-Pad2) )
+ )
+ ( /604E7334 LED  D81 LED_White
+  (    1 Net-(D15-Pad1) )
+  (    2 Net-(D78-Pad2) )
+ )
+ ( /604E732B LED  D70 LED_White
+  (    1 Net-(D15-Pad1) )
+  (    2 Net-(D67-Pad2) )
+ )
+ ( /604E7322 LED  D59 LED_White
+  (    1 Net-(D15-Pad1) )
+  (    2 Net-(D56-Pad2) )
+ )
+ ( /604E7319 LED  D48 LED_White
+  (    1 Net-(D15-Pad1) )
+  (    2 Net-(D45-Pad2) )
+ )
+ ( /604E7310 LED  D37 LED_White
+  (    1 Net-(D15-Pad1) )
+  (    2 Net-(D34-Pad2) )
+ )
+ ( /604E7307 LED  D26 LED_White
+  (    1 Net-(D15-Pad1) )
+  (    2 Net-(D23-Pad2) )
+ )
+ ( /604E72FE LED  D15 LED_White
+  (    1 Net-(D15-Pad1) )
+  (    2 Net-(D12-Pad2) )
+ )
+ ( /604E34BC LED  D80 LED_White
+  (    1 Net-(D14-Pad1) )
+  (    2 Net-(D78-Pad2) )
+ )
+ ( /604E34B3 LED  D69 LED_White
+  (    1 Net-(D14-Pad1) )
+  (    2 Net-(D67-Pad2) )
+ )
+ ( /604E34AA LED  D58 LED_White
+  (    1 Net-(D14-Pad1) )
+  (    2 Net-(D56-Pad2) )
+ )
+ ( /604E34A1 LED  D47 LED_White
+  (    1 Net-(D14-Pad1) )
+  (    2 Net-(D45-Pad2) )
+ )
+ ( /604E3498 LED  D36 LED_White
+  (    1 Net-(D14-Pad1) )
+  (    2 Net-(D34-Pad2) )
+ )
+ ( /604E348F LED  D25 LED_White
+  (    1 Net-(D14-Pad1) )
+  (    2 Net-(D23-Pad2) )
+ )
+ ( /604E3486 LED  D14 LED_White
+  (    1 Net-(D14-Pad1) )
+  (    2 Net-(D12-Pad2) )
+ )
+ ( /604D6DF0 LED  D79 LED_White
+  (    1 Net-(D13-Pad1) )
+  (    2 Net-(D78-Pad2) )
+ )
+ ( /604D6DE7 LED  D68 LED_White
+  (    1 Net-(D13-Pad1) )
+  (    2 Net-(D67-Pad2) )
+ )
+ ( /604D6DDE LED  D57 LED_White
+  (    1 Net-(D13-Pad1) )
+  (    2 Net-(D56-Pad2) )
+ )
+ ( /604D6DD5 LED  D46 LED_White
+  (    1 Net-(D13-Pad1) )
+  (    2 Net-(D45-Pad2) )
+ )
+ ( /604D6DCC LED  D35 LED_White
+  (    1 Net-(D13-Pad1) )
+  (    2 Net-(D34-Pad2) )
+ )
+ ( /604D6DC3 LED  D24 LED_White
+  (    1 Net-(D13-Pad1) )
+  (    2 Net-(D23-Pad2) )
+ )
+ ( /604D6DBA LED  D13 LED_White
+  (    1 Net-(D13-Pad1) )
+  (    2 Net-(D12-Pad2) )
+ )
+ ( /6048E793 LED  D78 LED_White
+  (    1 Net-(D1-Pad1) )
+  (    2 Net-(D78-Pad2) )
+ )
+ ( /6048D9D1 LED  D67 LED_White
+  (    1 Net-(D1-Pad1) )
+  (    2 Net-(D67-Pad2) )
+ )
+ ( /6048C944 LED  D56 LED_White
+  (    1 Net-(D1-Pad1) )
+  (    2 Net-(D56-Pad2) )
+ )
+ ( /6048BE42 LED  D45 LED_White
+  (    1 Net-(D1-Pad1) )
+  (    2 Net-(D45-Pad2) )
+ )
+ ( /6048B094 LED  D34 LED_White
+  (    1 Net-(D1-Pad1) )
+  (    2 Net-(D34-Pad2) )
+ )
+ ( /6048A3FB LED  D23 LED_White
+  (    1 Net-(D1-Pad1) )
+  (    2 Net-(D23-Pad2) )
+ )
+ ( /604892D0 LED  D12 LED_White
+  (    1 Net-(D1-Pad1) )
+  (    2 Net-(D12-Pad2) )
+ )
+ ( /60487899 LED  D1 LED_White
+  (    1 Net-(D1-Pad1) )
+  (    2 Net-(D1-Pad2) )
+ )
+ ( /604D6DB1 LED  D2 LED_White
+  (    1 Net-(D13-Pad1) )
+  (    2 Net-(D1-Pad2) )
+ )
+ ( /604E347D LED  D3 LED_White
+  (    1 Net-(D14-Pad1) )
+  (    2 Net-(D1-Pad2) )
+ )
+ ( /604E72F5 LED  D4 LED_White
+  (    1 Net-(D15-Pad1) )
+  (    2 Net-(D1-Pad2) )
+ )
+ ( /604ED2DA LED  D5 LED_White
+  (    1 Net-(D16-Pad1) )
+  (    2 Net-(D1-Pad2) )
+ )
+ ( /604F4150 LED  D6 LED_White
+  (    1 Net-(D17-Pad1) )
+  (    2 Net-(D1-Pad2) )
+ )
+ ( /604F9BC6 LED  D7 LED_White
+  (    1 Net-(D18-Pad1) )
+  (    2 Net-(D1-Pad2) )
+ )
+ ( /604FF9ED LED  D8 LED_White
+  (    1 Net-(D19-Pad1) )
+  (    2 Net-(D1-Pad2) )
+ )
+ ( /6050E841 LED  D9 LED_White
+  (    1 Net-(D20-Pad1) )
+  (    2 Net-(D1-Pad2) )
+ )
+ ( /60529DBB LED  D10 LED_White
+  (    1 Net-(D10-Pad1) )
+  (    2 Net-(D1-Pad2) )
+ )
+ ( /605322F7 LED  D11 LED_White
+  (    1 Net-(D11-Pad1) )
+  (    2 Net-(D1-Pad2) )
+ )
+ ( /60FD9F4A STRIP_100MIL8  J1 Conn_01x08
+  (    1 +5V )
+  (    2 /RESET )
+  (    3 /EOUT )
+  (    4 /DCLK )
+  (    5 /VSYNC )
+  (    6 /HSYNC )
+  (    7 /DATA )
+  (    8 GND )
+ )
+ ( /60469B70 DIP16  U3 74HC595
+  (    1 Net-(D12-Pad2) )
+  (    2 Net-(D23-Pad2) )
+  (    3 Net-(D34-Pad2) )
+  (    4 Net-(D45-Pad2) )
+  (    5 Net-(D56-Pad2) )
+  (    6 Net-(D67-Pad2) )
+  (    7 Net-(D78-Pad2) )
+  (    8 GND )
+  (    9 U3NC9 )
+  (   10 /RESET )
+  (   11 /HSYNC )
+  (   12 /HSYNC )
+  (   13 /EOUT )
+  (   14 /DATA )
+  (   15 Net-(D1-Pad2) )
+  (   16 +5V )
+ )
+ ( /617AB0EA RESISTOR4  R13 1MEG
+  (    1 /RESET )
+  (    2 +5V )
+ )
+ ( /61996E87 RESISTOR4  R14 1MEG
+  (    1 /EOUT )
+  (    2 +5V )
+ )
+ ( /619D42F0 RESISTOR4  R15 1MEG
+  (    1 /DCLK )
+  (    2 GND )
+ )
+ ( /61A8B544 RESISTOR4  R16 1MEG
+  (    1 /VSYNC )
+  (    2 GND )
+ )
+ ( /61A8B54A RESISTOR4  R17 1MEG
+  (    1 /HSYNC )
+  (    2 GND )
+ )
+ ( /61B04A77 RESISTOR4  R18 1MEG
+  (    1 /DATA )
+  (    2 GND )
+ )
+)
+*

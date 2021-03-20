@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Local)(type Legacy)(uri E:/Dev/LED-display/Hardware/LED-display/74xx.lib)(options "")(descr ""))
+)
