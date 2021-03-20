@@ -5,11 +5,15 @@ The LED matrix and hardware driver are designed using KiCAD (5.1.6) and the layo
 
 > The `Part-list.xlsx` spreadsheet does not reflect the BOM of this project.
 
-To do:
+![Rendered LED display](./Hardware/LED-display/LED-display-raytraced.png "Rendered LED display")
+
+## License
+The Software and firmware of this project is licensed under the the MIT license however the hardware is under the [Open Source Hardware](https://www.oshwa.org/definition/) license.
+
+## To do
 * Firmware driver and APIs for Raspberry Pi.
     * Example code (Python and C++)
 * APIs for Arduino.
     * Example code (Arduino C++)
-* Add silkscreen for J1 connector pin functions.
-
-![Rendered LED display](./Hardware/LED-display/LED-display-raytraced.png "Rendered LED display")
+* Silkscreen for J1 connector pin functions.
+* Documentation for hardware
