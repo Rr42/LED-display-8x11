@@ -1,4 +1,5 @@
 # Files to be ignored
 Hardware/Revision-control-archive
 Release-revision-control-archive/
+fab-notes/
 *.raw
