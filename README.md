@@ -5,7 +5,10 @@ The LED matrix and hardware driver are designed using KiCAD (5.1.6) and the layo
 
 > The `Part-list.xlsx` spreadsheet does not reflect the BOM of this project.
 
+### Rendered LED display
 ![Rendered LED display](./Hardware/LED-display/LED-display-raytraced.png "Rendered LED display")
+### Fabricated and assembled LED display
+![Fabricated and assembled LED display](./LED-display-fab-assimbled.jpg "Fabricated and assembled LED display")
 
 ## License
 The Software and firmware of this project is licensed under the the MIT license however the hardware is under the [Open Source Hardware](https://www.oshwa.org/definition/) license.
