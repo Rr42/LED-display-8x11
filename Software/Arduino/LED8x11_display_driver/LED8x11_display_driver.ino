@@ -73,7 +73,7 @@ void sendLine(const uint8_t dat[LINE_LENGTH]) {
 
 #ifdef DEBUG_MODE
     Serial.print(" {START, ");
-    for (int i=LINE_LENGTH-1; i>=0; --i) {
+    for (int8_t i=LINE_LENGTH-1; i>=0; --i) {
             Serial.print(dat[i]);
             Serial.print(", ");
     }
@@ -81,8 +81,38 @@ void sendLine(const uint8_t dat[LINE_LENGTH]) {
 #endif
 
     /* Send data to display back to front to match orientation */
-    for (int i=LINE_LENGTH-1; i>=0; --i) {
+    for (int8_t i=LINE_LENGTH-1; i>=0; --i) {
         digitalWrite(con[DATA], !dat[i]);
+        SETUP_DELAY();
+        digitalWrite(con[DCLK], HIGH);
+        SETUP_DELAY();
+        digitalWrite(con[DCLK], LOW);
+    }
+    /* Cleanup */
+    digitalWrite(con[DATA], LOW);
+}
+
+/* Function to send line data to display.
+* Overloaded form to accept bit arrays */
+void sendLine(const uint16_t dat) {
+    /* Prep for sending line data to display */
+
+    digitalWrite(con[HSYNC], LOW);
+    digitalWrite(con[VSYNC], LOW);
+    digitalWrite(con[DCLK], LOW);
+
+#ifdef DEBUG_MODE
+    Serial.print(" {START, ");
+    for (uint16_t i=0x1; i<=0x400; i<<=1) {
+            Serial.print(!(dat&i));
+            Serial.print(", ");
+    }
+    Serial.print("END}");
+#endif
+
+    /* Send data to display back to front to match orientation */
+    for (uint16_t i=0x1; i<=0x400; i<<=1) {
+        digitalWrite(con[DATA], !(dat&i));
         SETUP_DELAY();
         digitalWrite(con[DCLK], HIGH);
         SETUP_DELAY();
@@ -149,17 +179,26 @@ void displayRefresh() {
 }
 
 /* Test frame 1 */
-const uint8_t display_data[LINE_COUNT][LINE_LENGTH] = { 
-//                                               0  1  2  3  4  5  6  7  8  9 10
-                                                {1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0}, // 0
-                                                {1, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1}, // 1
-                                                {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, // 2
-                                                {1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1}, // 3
-                                                {1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1}, // 4
-                                                {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, // 5
-                                                {0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1}, // 6
-                                                {1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0}  // 7
-                                                };
+// const uint8_t display_data[LINE_COUNT][LINE_LENGTH] = { 
+//                                                 {1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0},  // 0
+//                                                 {1, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1},  // 1
+//                                                 {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},  // 2
+//                                                 {1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1},  // 3
+//                                                 {1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1},  // 4
+//                                                 {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},  // 5
+//                                                 {0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1},  // 6
+//                                                 {1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0}}; // 7
+// //                                               0  1  2  3  4  5  6  7  8  9 10
+
+/* Test frame 1 as a bit array */
+const uint16_t display_data[LINE_COUNT] = { 0b11001110010,  // 0
+                                            0b11000100011,  // 1
+                                            0b00000000000,  // 2
+                                            0b10001110001,  // 3
+                                            0b10001110001,  // 4
+                                            0b00000000000,  // 5
+                                            0b01000100001,  // 6
+                                            0b10001110010}; // 7
 
 void setup() {
     /* Initialise data */
@@ -189,7 +228,7 @@ void setup() {
 #ifdef DEBUG_MODE
     Serial.begin(9600);
     Serial.print("Line time: ");
-    Serial.print(LINE_TIME);
+    Serial.print(line_time_delay);
     Serial.print("\n");
 #endif
 
