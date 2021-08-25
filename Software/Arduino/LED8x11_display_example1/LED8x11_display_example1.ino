@@ -1,6 +1,6 @@
 /******************************************************************
 * File name: LED8x11_display_example1.ino
-* Version: v1.0
+* Version: v1.1
 * DEV: GitHub@Rr42
 * Description:
 *  Example Arduino program for the 8x11 LED display to switch
@@ -297,6 +297,7 @@ void loop() {
         /* Wait to match referesh rate */
         delayMicroseconds(line_time_delay);
     }
+    /* Count frames before switching */
     if (++switch_count > switch_count_max) {
         switch_count = 0;
         switch_frame = !switch_frame;

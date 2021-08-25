@@ -1,6 +1,6 @@
 /******************************************************************
 * File name: LED8x11_display_driver.ino
-* Version: v1.0
+* Version: v1.1
 * DEV: GitHub@Rr42
 * Description:
 *  Basic driver program for the 8x11 LED display
