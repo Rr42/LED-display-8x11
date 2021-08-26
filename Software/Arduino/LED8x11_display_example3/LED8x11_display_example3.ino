@@ -10,12 +10,9 @@
 /* Includes */
 #include <LED8x11_display_lib.h>
 
-/* Alternative display method */
-#define ALTERNATIVE_DISPLAY
-
-/* Display brightness (0 to 1) [works with alternative init method] */
+/* Display brightness (0 to 1) */
 #define BRIGHTNESS 0.7
-/* Display frame rate [works with alternative init method] */
+/* Display frame rate */
 #define FRAME_RATE 75
 
 /* Create Display driver object */
@@ -34,7 +31,7 @@ const uint16_t start[LINE_COUNT] = { 0b11111111111,
                                      0b10000000001,
                                      0b10000000001,
                                      0b10000000001,
-                                     0b10000100001,
+                                     0b10000000001,
                                      0b10000000001,
                                      0b10000000001,
                                      0b11111111111};
@@ -51,9 +48,9 @@ uint16_t buffer[LINE_COUNT] = { 0b00000000000,  // 0
 //                                0123456789X
 
 /* Game logic */
-#define X_MAX 10
+#define X_MAX LINE_LENGTH-1
 #define X_MIN 0
-#define Y_MAX 7
+#define Y_MAX LINE_COUNT-1
 #define Y_MIN 0
 /* Directions:
 * 1 2 3 | -1 -1 -1 | -1 00 +1
@@ -70,6 +67,7 @@ struct positionVector
     int8_t y_dir;
 }ball;
 
+/* Function to move the ball */
 void move_ball(bool reflect=false) {
     /* Remove previous position in buffer if ball is not being reflected */
     if (!reflect)
@@ -83,12 +81,10 @@ void move_ball(bool reflect=false) {
     bool move_again = false;
     if (ball.x_pos == X_MAX || ball.x_pos == X_MIN) {
         ball.x_dir *= -1;
-        // ball.x_pos += ball.x_dir;
         move_again = true;
     }
     if (ball.y_pos == Y_MAX || ball.y_pos == Y_MIN) {
         ball.y_dir *= -1;
-        // ball.y_pos += ball.y_dir;
         move_again = true;
     }
 
@@ -100,9 +96,14 @@ void move_ball(bool reflect=false) {
     buffer[ball.y_pos] |= (0x1<<ball.x_pos);
 }
 
+/* Function to initilise the bouncy ball */
 void init_bouncy(){
     /* Set the random seed using a some (hopefully) unconnected pin */
     randomSeed(analogRead(0));
+
+    /* Set a random starting position for the ball */
+    ball.x_pos = random(X_MIN+2, X_MAX-2);
+    ball.y_pos = random(Y_MIN+2, Y_MAX-2);
 
     /* Set a random starting direction for the ball */
     switch(random(1, 9)) {
