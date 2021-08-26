@@ -10,7 +10,7 @@
 ******************************************************************/
 
 /* Includes */
-#include "LED8x11_display_driver_lib.h"
+#include <LED8x11_display_lib.h>
 
 /* Alternative display method */
 #define ALTERNATIVE_DISPLAY

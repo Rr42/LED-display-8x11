@@ -1,14 +1,14 @@
 /******************************************************************
-* File name: LED8x11_display_driver_lib.h
+* File name: LED8x11_display_lib.h
 * Version: v1.0
 * DEV: GitHub@Rr42
 * Description:
 *  Display library header for the 8x11 LED display.
 ******************************************************************/
-#ifndef __LED8X11_DISPLAY_DRIVER_LIB__
+#ifndef __LED8X11_DISPLAY_LIB__
 
-#define __LED8X11_DISPLAY_DRIVER_LIB__
-#include "Arduino.h"
+#define __LED8X11_DISPLAY_LIB__
+#include <Arduino.h>
 
 /* Display size */
 #define LINE_LENGTH 11

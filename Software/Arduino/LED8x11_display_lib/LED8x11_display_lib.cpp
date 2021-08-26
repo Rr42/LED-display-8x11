@@ -1,12 +1,12 @@
 /******************************************************************
-* File name: LED8x11_display_driver_lib.cpp
+* File name: LED8x11_display_lib.cpp
 * Version: v1.0
 * DEV: GitHub@Rr42
 * Description:
 *  Display library implimentation for the 8x11 LED display.
 ******************************************************************/
 
-#include "LED8x11_display_driver_lib.h"
+#include "LED8x11_display_lib.h"
 
 /* Next scan line data */
 #define LAST_LINE LINE_COUNT
