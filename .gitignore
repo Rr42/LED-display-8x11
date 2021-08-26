@@ -1,8 +1,8 @@
 # Files to be ignored
 Hardware/Revision-control-archive
 Release-revision-control-archive/
-Software/Arduino/build
 Software/referance
 fab-notes/
 .vscode/
+build/
 *.raw
