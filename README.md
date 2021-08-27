@@ -12,7 +12,7 @@ The LED matrix and hardware driver are designed using KiCAD (5.1.6) and the layo
 
 ## Using the Arduino library
 To include and use the display library in sketches made using the Arduino IDE, first the library folder follow the below steps:
-* Copy the `LED8x11_display_lib` folder from `LED-display/Software` to `My Documents\Arduino\libraries` in Windows, or, `~/Documents/Arduino/libraries/` in linux. For more details refer the [libraries page](https://www.arduino.cc/en/hacking/libraries) on the Arduino website.
+* Copy the `LED8x11_display_lib` folder from `LED-display/Software` to `My Documents\Arduino\libraries` in Windows, or, `~/Documents/Arduino/libraries/` in linux. For more details refer to the [libraries page](https://www.arduino.cc/en/hacking/libraries) on the Arduino website.
 * Include the library in the sketch by mentioning `#include <LED8x11_display_lib.h>` at the top of the sketch.
 
 ## License
