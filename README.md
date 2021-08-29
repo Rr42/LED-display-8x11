@@ -21,5 +21,4 @@ The Software and firmware of this project is licensed under the the MIT license 
 ## To do
 * Firmware driver and APIs for Raspberry Pi.
     * Example code (Python and C++)
-* Silkscreen for J1 connector pin functions.
 * Documentation for hardware
