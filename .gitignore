@@ -1,8 +1,10 @@
 # Files to be ignored
-Hardware/Revision-control-archive
+Hardware/Revision-control-archive/
 Release-revision-control-archive/
-Software/referance
+led8x11displaylib.egg-info/
+Software/referance/
 fab-notes/
 .vscode/
 build/
+dist/
 *.raw

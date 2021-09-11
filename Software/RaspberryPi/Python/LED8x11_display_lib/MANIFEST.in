@@ -1,0 +1,11 @@
+# Include the README
+#include ../../README.md
+
+# Include the license file
+#include ../../License.md
+
+# Include the data files
+recursive-include led8x11displaylib *
+
+# Include setup.py
+include setup.py
