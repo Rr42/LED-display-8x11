@@ -78,7 +78,10 @@ void setup() {
         prescaler = 4 —> PWM frequency is 120 Hz
         prescaler = 5 —> PWM frequency is 30 Hz
         prescaler = 6 —> PWM frequency is <20 Hz */
-    TCCR3B &= 0b001;
+    // Erase
+    TCCR2B &= ~0b111;
+    // Set
+    TCCR3B |= 0b001;
 
     /* Initialise with custom brightness and frame rate */
     my_display.initialise(BRIGHTNESS, FRAME_RATE);
