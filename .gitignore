@@ -2,7 +2,9 @@
 Hardware/Revision-control-archive/
 Release-revision-control-archive/
 led8x11displaylib.egg-info/
-Software/referance/
+Software/Reference/
+Software/Arduino-nano/Reference/
+Software/PongBoard/Resources/
 fab-notes/
 .vscode/
 build/
